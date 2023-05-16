@@ -9,20 +9,33 @@
 </head>
 
 <body>
-    <div>
-        <h1>Firebase</h1>
-        <form id="form">
-            <label for="email">
-                Email:
-                <input type="text" id="email">
-            </label>
-            <label for="password">
-                Hasło:
-                <input type="password" id="password">
-            </label>
-            <button type="submit">Wyślij</button>
-        </form>
-    </div>
+
+    <h1>Firebase </h1>
+    <h2>Formularz rejestracji</h2>
+    <form id="form">
+        <label for="email">
+            Email:
+            <input type="text" id="email">
+        </label>
+        <label for="password">
+            Hasło:
+            <input type="password" id="password" min="6">
+        </label>
+        <button type="submit">Wyślij</button>
+    </form>
+    <h2>Formularz do logowania</h2>
+    <form id="form1">
+        <label for="getEmail">
+            Email:
+            <input type="text" id="getEmail">
+        </label>
+        <label for="getPassword">
+            Hasło:
+            <input type="password" id="getPassword" min="6">
+        </label>
+        <button type="submit" id="getUser">Zaloguj się</button>
+        <h4 id="emailReady"></h4>
+    </form>
     <script src="/index.3d214d75.js" defer=""></script>
 </body>
 
